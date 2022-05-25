@@ -6,7 +6,7 @@ const Boisson = () => {
     return (
         <>
         <div className='boisson-page'>
-            <h1> BoissonS </h1>
+            <h1 className='page-title'> BoissonS </h1>
 
         </div>
         </>

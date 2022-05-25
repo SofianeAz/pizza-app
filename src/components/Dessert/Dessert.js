@@ -6,7 +6,7 @@ const Dessert = () => {
     return (
         <>
         <div className='dessert-page'>
-            <h1> DessertS </h1>
+            <h1 className='page-title'> DessertS </h1>
 
         </div>
         </>

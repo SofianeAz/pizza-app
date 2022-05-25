@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Americain",
+        "description": "Un beau burger", 
+        "prix": 350,
+        "id": 5
+    },
+    {
+        "name": "Frenchy",
+        "description": "Un burger au fromage de brebis", 
+        "prix": 350,
+        "id": 5
+    }
+]
