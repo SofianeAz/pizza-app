@@ -1,12 +1,13 @@
 import './Home.scss';
 import {useState, useEffect} from 'react';
+import Hero from '../Hero/Hero';
 
 
 const Home = () => {
     return (
         <>
         <div className='home-page'>
-            <h1 className='page-title'> HOME </h1>
+            <Hero />
 
         </div>
         </>

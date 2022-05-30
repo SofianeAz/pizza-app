@@ -3,27 +3,43 @@
 @media screen and (min-width: 768px) {
 
     .card{
-
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 350px;
+        
 
         .card-img{
-
+            height: 200px;
+            width: 200px;
+            object-fit: contain;
         }
 
         .card-title{
+            line-height: 1.5rem;
+            font-weight: bold;
+            color: black;
+            background-color: yellow;
 
         }
         .card-description{
-
+            line-height: 1rem;
+            font-weight: bold;
+            color: yellow;
+            background-color: black;
         }
 
         .card-price{
-
+            color: #fafafa;
+            background-color: rgb(221, 18, 18);
         }
         .add-to-cart-btn{
-
+            color: #fafafa;
+            background-color: rgb(221, 18, 18);
 
             &:hover{
-
+                color: rgb(221, 18, 18);
+                background-color: #fafafa;
             }
         }
     }

@@ -1,0 +1,22 @@
+
+
+@media screen and (min-width: 768px) {
+
+    .hero-section{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+        img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        .hero-btn{
+            position: absolute;
+            bottom: 10%;
+            right: 10%;
+        }
+    }
+}
