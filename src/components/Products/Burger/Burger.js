@@ -25,7 +25,7 @@ const Burger = () => {
     return (
         <>
         <div className='burger-page'>
-            <h1 className='page-title'> BURGERS </h1>
+            <h1 className='page-title'> Burgers </h1>
             <div className='card-container'>
                     {items}
             </div>

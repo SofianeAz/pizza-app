@@ -24,3 +24,14 @@
     align-items: center;
     padding: 10%;
 }
+
+
+.pizza-page, .burger-page, .dessert-page, .boisson-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+

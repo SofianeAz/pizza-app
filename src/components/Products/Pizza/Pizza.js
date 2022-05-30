@@ -25,7 +25,7 @@ const Pizza = () => {
     return (
         <>
         <div className='pizza-page'>
-            <h1 className='page-title'> PizzaS </h1>
+            <h1 className='page-title'> Pizzas </h1>
             <div className='card-container'>
                 {[items]}
             </div>

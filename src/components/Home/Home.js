@@ -1,6 +1,7 @@
 import './Home.scss';
 import {useState, useEffect} from 'react';
 import Hero from '../Hero/Hero';
+import MapLocation from '../MapLocation/MapLocation';
 
 
 const Home = () => {
@@ -8,8 +9,8 @@ const Home = () => {
         <>
         <div className='home-page'>
             <Hero />
-
-        </div>
+            <MapLocation />
+            </div>
         </>
     );
 }

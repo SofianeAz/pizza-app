@@ -13,10 +13,45 @@
             width: 100%;
             position: relative;
         }
-        .hero-btn{
+        .hero-title{
+            display: flex;
+            padding: 2%;
+            color: #fafafa;
+            background-color: rgba(0, 0, 0, 0.315);
+            box-shadow: -10px 10px 5px rgb(226, 217, 217);
+            border-radius: 20px;
             position: absolute;
-            bottom: 10%;
-            right: 10%;
+            top: 10%;
+            left: 15%;
+
+            p {
+                color:rgb(247, 226, 41);
+                // background-color: rgba(247, 226, 41, 0.616);
+            }
+        }
+        .hero-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            outline: none;
+            height: 80px;
+            width: auto;
+            padding: 2%;
+            border-radius: 20px;
+            background-color: red;
+            color: #fafafa;
+            border: 2px #fafafa solid;
+            box-shadow: -10px 10px 5px rgb(226, 217, 217);
+            &:hover{
+                
+                background-color: black;
+                color:  #fafafa;
+                border: 2px red solid;
+                transition: all 0.4s ease-in-out;
+            }
         }
     }
 }

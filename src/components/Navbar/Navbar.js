@@ -5,14 +5,21 @@ import {useState, useEffect} from 'react';
 
 
 const Navbar = () => {
+
+    // const [setClass, toggleClass] = useEffect(setClass)
+
     return (
         <>
         <nav>
-            <a className='menu-logo' href="/" >
+            <NavLink 
+                        exact="true" 
+                        activeclassname="active" 
+                        className={'menu-logo'}
+                        to="/"
+                        href="/" >
                     <img src={PizzaLogo} alt='logo pizzeria' />
-                </a>
+            </NavLink>
             <ul className='menu'>
-               
                 <NavLink 
                          exact="true" 
                          activeclassname="active" 
